@@ -7,9 +7,7 @@ extra-deps:
 # - ./vendor/concur-core
 - git: https://github.com/pkamenarsky/replica.git
   commit: 4d93f16fe7397ee13a8842a01dad9224870c025e
-- git: https://github.com/pkamenarsky/concur.git
-  commit: 6c6bcc07b2688182945b28f154a013eee3f624c5
-  subdirs:
-    - concur-core
+- git: https://github.com/concurhaskell/core.git
+  commit: 2052de523cdf43051872db2419da6debba1b3cd4
 flags: {}
 extra-package-dbs: []
